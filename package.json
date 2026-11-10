@@ -1,0 +1,20 @@
+{
+  "name": "mangahere-paperback",
+  "version": "1.0.0",
+  "repositoryName": "MangaHere (0.8)",
+  "description": "MangaHere source for Paperback 0.8",
+  "scripts": {
+    "bundle": "npx paperback bundle",
+    "serve": "npx paperback serve",
+    "test": "npx paperback test"
+  },
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@paperback/toolchain": "^0.8.7",
+    "@paperback/types": "^0.8.7",
+    "cheerio": "1.0.0-rc.12"
+  }
+}
